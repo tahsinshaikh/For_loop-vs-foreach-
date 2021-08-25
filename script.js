@@ -6,8 +6,8 @@ function forLoopTest () {
     }
     var b = new Date()
     console.log('For loop')
-    console.log(`Function ran ${ran} times`)
-    console.log(`Total ran time in ms: ${b.getTime() - a.getTime()}`)
+    console.log(`Ran ${ran} times`)
+    console.log(`Total run time in ms: ${b.getTime() - a.getTime()}`)
     console.log('\n\n')
 }
 
@@ -18,7 +18,7 @@ function createArray () {
         i++
         elements.push(i)
     }
-    console.log(`Element Array created of length ${elements.length}\n\n`)
+    console.log(`Element Array created of length of ${elements.length}\n\n`)
 }
 
 function foreachTest () {
@@ -29,8 +29,8 @@ function foreachTest () {
     
     var b = new Date()
     console.log('foreach')
-    console.log(`Function ran ${ran} times`)
-    console.log(`Total ran time in ms: ${b.getTime() - a.getTime()}`)
+    console.log(`Ran ${ran} times`)
+    console.log(`Total run time in ms: ${b.getTime() - a.getTime()}`)
 }
 
 forLoopTest()
